@@ -1,5 +1,5 @@
 
-minutesOrHours = input("For minutes to hours, type 'h'. For hours and minutes to minutes, type 'm': \n")
+minutesOrHours = input("For total minutes to hours and minutes, type 'h'. For hours and minutes to only minutes, type 'm': \n")
 
 
 if minutesOrHours == 'h':
