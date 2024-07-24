@@ -11,10 +11,10 @@ class Circle():
         print(f"The diameter of {self.name} is {self.radius *2}.")
            
     def get_circumference(self):
-        print(f"The circumference of {self.name} is {self.radius * self.pi * 2} {self.unit}.")
+        print(f"The circumference of {self.name} is {self.radius * Circle.pi * 2} {self.unit}.")
         
     def get_area(self):
-        print(f"The area of {self.name} is {self.radius ** 2 * self.pi} square {self.unit}.")
+        print(f"The area of {self.name} is {self.radius ** 2 * Circle.pi} square {self.unit}.")
         
 
 mycircle = Circle(3.5, "inches", "a personal pizza")
