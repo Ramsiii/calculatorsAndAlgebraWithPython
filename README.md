@@ -1,2 +1,3 @@
 # collegeAlgebraWithPython
-Google Collab Notebooks for College Algebra with Python
+Various calculators for unit conversion, etc. 
+Also Google Collab Notebooks for College Algebra with Python
