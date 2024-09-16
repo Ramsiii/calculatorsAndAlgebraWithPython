@@ -1,4 +1,4 @@
-print("Let's find out what twhat percent a part is of a whole.")
+print("Let's find out what percent a part is of a whole.")
 num = float(input("Part of the whole is: "))
 whole = float(input("The whole is: "))
 
