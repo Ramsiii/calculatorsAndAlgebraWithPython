@@ -7,3 +7,13 @@ def min_int_in_list(a_list):
             min_int = a_list[list_index]
         list_index += 1
     return min_int
+
+
+# finds the mean of a list of integers
+def mean(yourList):
+    total = 0
+    for each in yourList:
+        total += each
+    
+    mean = total / (len(yourList))
+    return mean
