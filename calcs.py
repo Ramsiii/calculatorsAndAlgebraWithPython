@@ -27,13 +27,16 @@ def median(yourList):
     
     sortedList = sorted(yourList)
     
-    if len(sortedList) % 2 == 0:
-        median = int((sortedList[int(((len(sortedList))/2)-1)]+sortedList[int((len(sortedList))/2)]) / 2)
+    length = len(sortedList)
+    mid = length // 2
+    
+    if length % 2 == 0:
+        median = (sortedList[mid-1]+sortedList[mid]) / 2
     else:
-        median = sortedList[int((len(sortedList)-1)/2)]
+        median = sortedList[mid]
     return median
 
-# finds the sum of a list of integers (alr)
+# finds the sum of a list of integers, same as already existing sum()
 
 def sum(yourList):
     total = 0
