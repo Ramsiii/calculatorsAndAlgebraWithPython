@@ -22,3 +22,9 @@ print(calcs.median(list4))
 
 # find the median in a list with an odd number or integers
 print(calcs.median(list5))
+
+
+list6 = [-4,6,8,-5,-2,0,7,7,4,-14,2,16,-8,3,-3,-9]
+# find the sum of a list of integers
+
+print(calcs.sum(list6))

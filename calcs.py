@@ -28,3 +28,11 @@ def median(yourList):
     else:
         median = sortedList[int((len(sortedList)-1)/2)]
     return median
+
+# finds the sum of a list of integers
+
+def sum(yourList):
+    total = 0
+    for each in yourList:
+        total += each
+    return total
