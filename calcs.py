@@ -17,3 +17,14 @@ def mean(yourList):
     
     mean = total / (len(yourList))
     return mean
+
+# finds the median in a list of integers
+def median(yourList):
+    
+    sortedList = sorted(yourList)
+    
+    if len(sortedList) % 2 == 0:
+        median = int((sortedList[int(((len(sortedList))/2)-1)]+sortedList[int((len(sortedList))/2)]) / 2)
+    else:
+        median = sortedList[int((len(sortedList)-1)/2)]
+    return median
