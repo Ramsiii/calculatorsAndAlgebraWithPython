@@ -5,4 +5,4 @@ Also Google Collab Notebooks for College Algebra with Python
 
 Not meant to replace the "statistics" or "math" modules. 
 
-Written with Python 3.9.6
+Written with Python 3.9.6 and Python 3.13.0
