@@ -1,5 +1,4 @@
 def convertTimeTo24Hr(s):
-    # Write your code here
     # if the last two char are 'AM' and
     # the first two are '12' 
     if s[-2:] == 'AM' and s[:2] == '12':
