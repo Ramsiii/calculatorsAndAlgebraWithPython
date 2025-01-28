@@ -1,4 +1,4 @@
-def timeConversion(s):
+def convertTimeTo24Hr(s):
     # Write your code here
     # if the last two char are 'AM' and
     # the first two are '12' 
@@ -21,5 +21,5 @@ def timeConversion(s):
 if __name__ == '__main__':
     s = input('Enter the time in the format 00:00:00AM: ')
 
-    result = timeConversion(s)
+    result = convertTimeTo24Hr(s)
     print(f'The 24-hour format for that time is: {result}.')
