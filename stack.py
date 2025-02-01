@@ -14,14 +14,14 @@ class Stack:
     def is_empty(self):
         return len(self.elements) == 0
 
+if __name__ == '__main__':
+    stack = Stack()
 
-stack = Stack()
+    # stack.pop()
+    # print(stack.pop())
 
-# stack.pop()
-# print(stack.pop())
+    stack.push(1)
+    stack.push(2)
 
-stack.push(1)
-stack.push(2)
-
-print(stack.pop())
-print(stack.is_empty())
+    print(stack.pop())
+    print(stack.is_empty())

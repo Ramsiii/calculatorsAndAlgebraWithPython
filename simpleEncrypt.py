@@ -18,6 +18,7 @@ def encrypt_string(text):
     return ''.join(encrypted)
 
 
-# Encrypt the string "Hello, Python!"
-encrypted_text = encrypt_string("Hello, Python!")
-print("The encrypted text is:", encrypted_text) # Should print out "Ifmmp, Qzuipo!" 
+if __name__ == '__main__':
+    # Encrypt the string "Hello, Python!"
+    encrypted_text = encrypt_string("Hello, Python!")
+    print("The encrypted text is:", encrypted_text) # Should print out "Ifmmp, Qzuipo!" 
