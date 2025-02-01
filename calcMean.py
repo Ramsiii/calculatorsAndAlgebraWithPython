@@ -7,6 +7,10 @@ def mean(yourList):
     return mean
 
 
-myList = [3,5,5,6,2,10,4]
+if __name__ == '__main__':
 
-print(mean(myList))
+    myList = [3,5,5,6,2,10,4]
+
+    print(f'Example list: \n{myList}')
+    print('The mean of that list is:')
+    print(mean(myList))

@@ -8,12 +8,14 @@ def median(yourList):
         median = sortedList[int((len(sortedList)-1)/2)]
     return median
 
+if __name__ == '__main__':
+    
+    myList = [2,5,7,10,4,14]
+    print(f'Example of a list with an even number of integers: \n{myList}')
+    print('The median of that list is:')
+    print(median(myList))
 
-myList = [2,5,7,10,4,14]
-print(median(myList))
-
-myList2 = [7,10,4,5,14,2,22]
-print(median(myList2))
-
-newList = [7,11,33,25,4,21,40,16,39,31,9,25]
-print(median(newList))
+    myList2 = [7,10,4,5,14,2,22]
+    print(f'Example of a list with an odd number of integers: \n{myList2}')
+    print('The median of that list is:')
+    print(median(myList2))
