@@ -17,9 +17,10 @@ class Circle():
         print(f"The area of {self.name} is {self.radius ** 2 * Circle.pi} square {self.unit}.")
         
 
-mycircle = Circle(3.5, "inches", "a personal pizza")
+if __name__ == '__main__':
+    
+    mycircle = Circle(3.5, "inches", "a personal pizza")
 
-
-mycircle.get_diameter()
-mycircle.get_circumference()
-mycircle.get_area()
+    mycircle.get_diameter()
+    mycircle.get_circumference()
+    mycircle.get_area()
